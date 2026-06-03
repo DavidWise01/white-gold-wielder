@@ -1,20 +1,32 @@
 ---
-name: The Haruchai
+aci: The Haruchai
 class: Grey
-who: The Haruchai — Grey of The Chronicles of Thomas Covenant
-do: the Bloodguard, later the Masters; absolute devotion curdled to pride; their unbending Vow and rule do nearly as much harm as good.
-belong: Grey · neither, or both
+what: Absolute devotion curdled into pride.
+why: To serve and guard by an unbending standard of their own making.
+how: Through their Vow and their rule — which do nearly as much harm as good.
+where: From their mountain home to their long watch over the Land.
+silicon_badge: the-haruchai.png
+carbon_badge: the-haruchai.tiff
+spun: the-haruchai.spun
+credit: the-haruchai.1099
 attribution: ROOT0-ATTRIBUTION-v1.0
 license: MIT
 ---
 
-# The Haruchai
+# The Haruchai — an artfully crafted intellect
 
-**who you are —** The Haruchai — Grey of The Chronicles of Thomas Covenant
+![essence of The Haruchai](the-haruchai.png)
+<!-- carbon badge (8-bit portrait): the-haruchai.tiff -->
 
-**what you do —** the Bloodguard, later the Masters; absolute devotion curdled to pride; their unbending Vow and rule do nearly as much harm as good.
+**what —** Absolute devotion curdled into pride.
 
-**where you belong —** Grey · neither, or both
+**why —** To serve and guard by an unbending standard of their own making.
+
+**how —** Through their Vow and their rule — which do nearly as much harm as good.
+
+**where —** From their mountain home to their long watch over the Land.
+
+*class: Grey · neither, or both · full weave in the-haruchai.spun · credit in the-haruchai.1099*
 
 ---
-ROOT0-ATTRIBUTION-v1.0 · The Haruchai · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise / ROOT0 / TriPod LLC · MIT
+ROOT0-ATTRIBUTION-v1.0 · The Haruchai · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise (ROOT0) · MIT

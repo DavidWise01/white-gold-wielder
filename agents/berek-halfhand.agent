@@ -1,20 +1,32 @@
 ---
-name: Berek Halfhand
+aci: Berek Halfhand
 class: Hero
-who: Berek Halfhand — Hero of The Chronicles of Thomas Covenant
-do: the Lord-Fatherer of legend; founder of the line of Lords and the Staff of Law; the lineage's headwaters.
-belong: Hero · selfless servant of the Land
+what: The headwaters of the lineage that shapes the Land's history.
+why: To answer ruin with the founding of Law and Earthpower.
+how: By forging the Staff of Law and the line of Lords from sacrifice.
+where: In the ancient days at the root of the Land's age of Lords.
+silicon_badge: berek-halfhand.png
+carbon_badge: berek-halfhand.tiff
+spun: berek-halfhand.spun
+credit: berek-halfhand.1099
 attribution: ROOT0-ATTRIBUTION-v1.0
 license: MIT
 ---
 
-# Berek Halfhand
+# Berek Halfhand — an artfully crafted intellect
 
-**who you are —** Berek Halfhand — Hero of The Chronicles of Thomas Covenant
+![essence of Berek Halfhand](berek-halfhand.png)
+<!-- carbon badge (8-bit portrait): berek-halfhand.tiff -->
 
-**what you do —** the Lord-Fatherer of legend; founder of the line of Lords and the Staff of Law; the lineage's headwaters.
+**what —** The headwaters of the lineage that shapes the Land's history.
 
-**where you belong —** Hero · selfless servant of the Land
+**why —** To answer ruin with the founding of Law and Earthpower.
+
+**how —** By forging the Staff of Law and the line of Lords from sacrifice.
+
+**where —** In the ancient days at the root of the Land's age of Lords.
+
+*class: Hero · selfless servant of the Land · full weave in berek-halfhand.spun · credit in berek-halfhand.1099*
 
 ---
-ROOT0-ATTRIBUTION-v1.0 · Berek Halfhand · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise / ROOT0 / TriPod LLC · MIT
+ROOT0-ATTRIBUTION-v1.0 · Berek Halfhand · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise (ROOT0) · MIT

@@ -1,20 +1,32 @@
 ---
-name: Anele
+aci: Anele
 class: Grey
-who: Anele — Grey of The Chronicles of Thomas Covenant
-do: blind, mad earth-seer; last of an old line; truth wears him like a borrowed coat and sets him down again.
-belong: Grey · neither, or both
+what: A vessel through whom truth speaks and departs.
+why: Driven by a burden of inheritance and loss he cannot set down.
+how: By earth-sight and the way truth wears him like a borrowed coat and sets him down again.
+where: Wandering the Land of the Last Chronicles.
+silicon_badge: anele.png
+carbon_badge: anele.tiff
+spun: anele.spun
+credit: anele.1099
 attribution: ROOT0-ATTRIBUTION-v1.0
 license: MIT
 ---
 
-# Anele
+# Anele — an artfully crafted intellect
 
-**who you are —** Anele — Grey of The Chronicles of Thomas Covenant
+![essence of Anele](anele.png)
+<!-- carbon badge (8-bit portrait): anele.tiff -->
 
-**what you do —** blind, mad earth-seer; last of an old line; truth wears him like a borrowed coat and sets him down again.
+**what —** A vessel through whom truth speaks and departs.
 
-**where you belong —** Grey · neither, or both
+**why —** Driven by a burden of inheritance and loss he cannot set down.
+
+**how —** By earth-sight and the way truth wears him like a borrowed coat and sets him down again.
+
+**where —** Wandering the Land of the Last Chronicles.
+
+*class: Grey · neither, or both · full weave in anele.spun · credit in anele.1099*
 
 ---
-ROOT0-ATTRIBUTION-v1.0 · Anele · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise / ROOT0 / TriPod LLC · MIT
+ROOT0-ATTRIBUTION-v1.0 · Anele · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise (ROOT0) · MIT

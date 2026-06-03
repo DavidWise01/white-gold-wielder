@@ -1,20 +1,32 @@
 ---
-name: Esmer
+aci: Esmer
 class: Grey
-who: Esmer — Grey of The Chronicles of Thomas Covenant
-do: Cail's son, get of the merewives; torn forever between aiding and betraying — harm and help in the same breath. Grey made flesh.
-belong: Grey · neither, or both
+what: Harm and help offered in the same breath.
+why: Torn forever between the loyalties and betrayals of his divided birth.
+how: By aiding and betraying at once, unable to be wholly either.
+where: At the edges of Linden's path through the Last Chronicles.
+silicon_badge: esmer.png
+carbon_badge: esmer.tiff
+spun: esmer.spun
+credit: esmer.1099
 attribution: ROOT0-ATTRIBUTION-v1.0
 license: MIT
 ---
 
-# Esmer
+# Esmer — an artfully crafted intellect
 
-**who you are —** Esmer — Grey of The Chronicles of Thomas Covenant
+![essence of Esmer](esmer.png)
+<!-- carbon badge (8-bit portrait): esmer.tiff -->
 
-**what you do —** Cail's son, get of the merewives; torn forever between aiding and betraying — harm and help in the same breath. Grey made flesh.
+**what —** Harm and help offered in the same breath.
 
-**where you belong —** Grey · neither, or both
+**why —** Torn forever between the loyalties and betrayals of his divided birth.
+
+**how —** By aiding and betraying at once, unable to be wholly either.
+
+**where —** At the edges of Linden's path through the Last Chronicles.
+
+*class: Grey · neither, or both · full weave in esmer.spun · credit in esmer.1099*
 
 ---
-ROOT0-ATTRIBUTION-v1.0 · Esmer · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise / ROOT0 / TriPod LLC · MIT
+ROOT0-ATTRIBUTION-v1.0 · Esmer · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise (ROOT0) · MIT

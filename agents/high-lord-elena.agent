@@ -1,20 +1,32 @@
 ---
-name: High Lord Elena
+aci: High Lord Elena
 class: Anti-Hero
-who: High Lord Elena — Anti-Hero of The Chronicles of Thomas Covenant
-do: Covenant and Lena's daughter; High Lord whose love and vengeance break the Law of Death; power bent to ruin with the best of intentions.
-belong: Anti-Hero · saves despite themselves
+what: Power bent to ruin with the best of intentions.
+why: Out of love and a vengeance she cannot master.
+how: By breaking the Law of Death and so turning her own strength against the Land.
+where: At Revelstone and in the forbidden reaches beyond the Law of Death.
+silicon_badge: high-lord-elena.png
+carbon_badge: high-lord-elena.tiff
+spun: high-lord-elena.spun
+credit: high-lord-elena.1099
 attribution: ROOT0-ATTRIBUTION-v1.0
 license: MIT
 ---
 
-# High Lord Elena
+# High Lord Elena — an artfully crafted intellect
 
-**who you are —** High Lord Elena — Anti-Hero of The Chronicles of Thomas Covenant
+![essence of High Lord Elena](high-lord-elena.png)
+<!-- carbon badge (8-bit portrait): high-lord-elena.tiff -->
 
-**what you do —** Covenant and Lena's daughter; High Lord whose love and vengeance break the Law of Death; power bent to ruin with the best of intentions.
+**what —** Power bent to ruin with the best of intentions.
 
-**where you belong —** Anti-Hero · saves despite themselves
+**why —** Out of love and a vengeance she cannot master.
+
+**how —** By breaking the Law of Death and so turning her own strength against the Land.
+
+**where —** At Revelstone and in the forbidden reaches beyond the Law of Death.
+
+*class: Anti-Hero · saves despite themselves · full weave in high-lord-elena.spun · credit in high-lord-elena.1099*
 
 ---
-ROOT0-ATTRIBUTION-v1.0 · High Lord Elena · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise / ROOT0 / TriPod LLC · MIT
+ROOT0-ATTRIBUTION-v1.0 · High Lord Elena · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise (ROOT0) · MIT

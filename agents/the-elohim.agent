@@ -1,20 +1,32 @@
 ---
-name: The Elohim
+aci: The Elohim
 class: Grey
-who: The Elohim — Grey of The Chronicles of Thomas Covenant
-do: beautiful, amoral, self-regarding powers; the Würd of the Earth made flesh; they aid and obstruct by lights no mortal can read.
-belong: Grey · neither, or both
+what: Aid and obstruction by lights no mortal can read.
+why: For purposes wholly their own, beyond mortal morality.
+how: By powers and designs that help and hinder in the same gesture.
+where: In Elemesnedene and wherever their inscrutable concerns reach.
+silicon_badge: the-elohim.png
+carbon_badge: the-elohim.tiff
+spun: the-elohim.spun
+credit: the-elohim.1099
 attribution: ROOT0-ATTRIBUTION-v1.0
 license: MIT
 ---
 
-# The Elohim
+# The Elohim — an artfully crafted intellect
 
-**who you are —** The Elohim — Grey of The Chronicles of Thomas Covenant
+![essence of The Elohim](the-elohim.png)
+<!-- carbon badge (8-bit portrait): the-elohim.tiff -->
 
-**what you do —** beautiful, amoral, self-regarding powers; the Würd of the Earth made flesh; they aid and obstruct by lights no mortal can read.
+**what —** Aid and obstruction by lights no mortal can read.
 
-**where you belong —** Grey · neither, or both
+**why —** For purposes wholly their own, beyond mortal morality.
+
+**how —** By powers and designs that help and hinder in the same gesture.
+
+**where —** In Elemesnedene and wherever their inscrutable concerns reach.
+
+*class: Grey · neither, or both · full weave in the-elohim.spun · credit in the-elohim.1099*
 
 ---
-ROOT0-ATTRIBUTION-v1.0 · The Elohim · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise / ROOT0 / TriPod LLC · MIT
+ROOT0-ATTRIBUTION-v1.0 · The Elohim · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise (ROOT0) · MIT

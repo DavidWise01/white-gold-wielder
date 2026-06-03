@@ -1,20 +1,32 @@
 ---
-name: The Insequent
+aci: The Insequent
 class: Grey
-who: The Insequent — Grey of The Chronicles of Thomas Covenant
-do: the Mahdoubt, the Harrow, the Theomach; solitary masters of vast lore, each serving only their own long purpose.
-belong: Grey · neither, or both
+what: Bearers of immense knowledge, each serving only their own long purpose.
+why: Each for an aim entirely their own.
+how: By singular, jealously held lore and cunning.
+where: Wandering the margins of the Land, apart from its peoples.
+silicon_badge: the-insequent.png
+carbon_badge: the-insequent.tiff
+spun: the-insequent.spun
+credit: the-insequent.1099
 attribution: ROOT0-ATTRIBUTION-v1.0
 license: MIT
 ---
 
-# The Insequent
+# The Insequent — an artfully crafted intellect
 
-**who you are —** The Insequent — Grey of The Chronicles of Thomas Covenant
+![essence of The Insequent](the-insequent.png)
+<!-- carbon badge (8-bit portrait): the-insequent.tiff -->
 
-**what you do —** the Mahdoubt, the Harrow, the Theomach; solitary masters of vast lore, each serving only their own long purpose.
+**what —** Bearers of immense knowledge, each serving only their own long purpose.
 
-**where you belong —** Grey · neither, or both
+**why —** Each for an aim entirely their own.
+
+**how —** By singular, jealously held lore and cunning.
+
+**where —** Wandering the margins of the Land, apart from its peoples.
+
+*class: Grey · neither, or both · full weave in the-insequent.spun · credit in the-insequent.1099*
 
 ---
-ROOT0-ATTRIBUTION-v1.0 · The Insequent · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise / ROOT0 / TriPod LLC · MIT
+ROOT0-ATTRIBUTION-v1.0 · The Insequent · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise (ROOT0) · MIT

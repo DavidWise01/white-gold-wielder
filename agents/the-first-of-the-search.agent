@@ -1,20 +1,32 @@
 ---
-name: The First of the Search
+aci: The First of the Search
 class: Hero
-who: The First of the Search — Hero of The Chronicles of Thomas Covenant
-do: Gossamer Glowlimn; Swordmain and leader of the Giants' Search; iron, honor, and a long faith.
-belong: Hero · selfless servant of the Land
+what: The iron-willed commander who holds the Search to its long purpose.
+why: To keep faith with an ancient charge and see the Land's peril met.
+how: By honor, discipline, and a faith that endures every doubt.
+where: At the head of the Search, from the Giants' homeland across distant waters.
+silicon_badge: the-first-of-the-search.png
+carbon_badge: the-first-of-the-search.tiff
+spun: the-first-of-the-search.spun
+credit: the-first-of-the-search.1099
 attribution: ROOT0-ATTRIBUTION-v1.0
 license: MIT
 ---
 
-# The First of the Search
+# The First of the Search — an artfully crafted intellect
 
-**who you are —** The First of the Search — Hero of The Chronicles of Thomas Covenant
+![essence of The First of the Search](the-first-of-the-search.png)
+<!-- carbon badge (8-bit portrait): the-first-of-the-search.tiff -->
 
-**what you do —** Gossamer Glowlimn; Swordmain and leader of the Giants' Search; iron, honor, and a long faith.
+**what —** The iron-willed commander who holds the Search to its long purpose.
 
-**where you belong —** Hero · selfless servant of the Land
+**why —** To keep faith with an ancient charge and see the Land's peril met.
+
+**how —** By honor, discipline, and a faith that endures every doubt.
+
+**where —** At the head of the Search, from the Giants' homeland across distant waters.
+
+*class: Hero · selfless servant of the Land · full weave in the-first-of-the-search.spun · credit in the-first-of-the-search.1099*
 
 ---
-ROOT0-ATTRIBUTION-v1.0 · The First of the Search · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise / ROOT0 / TriPod LLC · MIT
+ROOT0-ATTRIBUTION-v1.0 · The First of the Search · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise (ROOT0) · MIT

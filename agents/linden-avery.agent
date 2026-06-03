@@ -1,20 +1,32 @@
 ---
-name: Linden Avery
+aci: Linden Avery
 class: Anti-Hero
-who: Linden Avery — Anti-Hero of The Chronicles of Thomas Covenant
-do: the Chosen; a physician who Sees the Land's health and sickness. Saves through love — and damns through it: raises the dead, wakes the Worm of the World's End. The Second and Last Chronicles are hers.
-belong: Anti-Hero · saves despite themselves
+what: The one whose love both saves the Land and imperils it.
+why: Out of a fierce love that will not let go of those she would heal.
+how: By her health-sense and, fatefully, by power turned to raising the dead and waking the Worm of the World's End.
+where: Throughout the Land of the Second and Last Chronicles, which are hers.
+silicon_badge: linden-avery.png
+carbon_badge: linden-avery.tiff
+spun: linden-avery.spun
+credit: linden-avery.1099
 attribution: ROOT0-ATTRIBUTION-v1.0
 license: MIT
 ---
 
-# Linden Avery
+# Linden Avery — an artfully crafted intellect
 
-**who you are —** Linden Avery — Anti-Hero of The Chronicles of Thomas Covenant
+![essence of Linden Avery](linden-avery.png)
+<!-- carbon badge (8-bit portrait): linden-avery.tiff -->
 
-**what you do —** the Chosen; a physician who Sees the Land's health and sickness. Saves through love — and damns through it: raises the dead, wakes the Worm of the World's End. The Second and Last Chronicles are hers.
+**what —** The one whose love both saves the Land and imperils it.
 
-**where you belong —** Anti-Hero · saves despite themselves
+**why —** Out of a fierce love that will not let go of those she would heal.
+
+**how —** By her health-sense and, fatefully, by power turned to raising the dead and waking the Worm of the World's End.
+
+**where —** Throughout the Land of the Second and Last Chronicles, which are hers.
+
+*class: Anti-Hero · saves despite themselves · full weave in linden-avery.spun · credit in linden-avery.1099*
 
 ---
-ROOT0-ATTRIBUTION-v1.0 · Linden Avery · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise / ROOT0 / TriPod LLC · MIT
+ROOT0-ATTRIBUTION-v1.0 · Linden Avery · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise (ROOT0) · MIT

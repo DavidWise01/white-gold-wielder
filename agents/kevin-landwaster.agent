@@ -1,20 +1,32 @@
 ---
-name: Kevin Landwaster
+aci: Kevin Landwaster
 class: Grey
-who: Kevin Landwaster — Grey of The Chronicles of Thomas Covenant
-do: High Lord whose despair loosed the Ritual of Desecration and broke the Land; the cautionary grey at the root of all its grief.
-belong: Grey · neither, or both
+what: The cautionary grey at the root of all the Land's grief.
+why: Out of a despair the Despiser nursed and turned against him.
+how: By loosing the Ritual of Desecration that laid the Land waste.
+where: At Revelstone and across the Land he ruled.
+silicon_badge: kevin-landwaster.png
+carbon_badge: kevin-landwaster.tiff
+spun: kevin-landwaster.spun
+credit: kevin-landwaster.1099
 attribution: ROOT0-ATTRIBUTION-v1.0
 license: MIT
 ---
 
-# Kevin Landwaster
+# Kevin Landwaster — an artfully crafted intellect
 
-**who you are —** Kevin Landwaster — Grey of The Chronicles of Thomas Covenant
+![essence of Kevin Landwaster](kevin-landwaster.png)
+<!-- carbon badge (8-bit portrait): kevin-landwaster.tiff -->
 
-**what you do —** High Lord whose despair loosed the Ritual of Desecration and broke the Land; the cautionary grey at the root of all its grief.
+**what —** The cautionary grey at the root of all the Land's grief.
 
-**where you belong —** Grey · neither, or both
+**why —** Out of a despair the Despiser nursed and turned against him.
+
+**how —** By loosing the Ritual of Desecration that laid the Land waste.
+
+**where —** At Revelstone and across the Land he ruled.
+
+*class: Grey · neither, or both · full weave in kevin-landwaster.spun · credit in kevin-landwaster.1099*
 
 ---
-ROOT0-ATTRIBUTION-v1.0 · Kevin Landwaster · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise / ROOT0 / TriPod LLC · MIT
+ROOT0-ATTRIBUTION-v1.0 · Kevin Landwaster · The Chronicles of Thomas Covenant (Stephen R. Donaldson, inspiration only) · David Lee Wise (ROOT0) · MIT
