@@ -1,0 +1,48 @@
+{
+  "company": "The Chronicles of Thomas Covenant",
+  "subtitle": "the white gold wielder · ten books, three Chronicles",
+  "author": "Stephen R. Donaldson",
+  "note": "The full Covenant Chronicles sorted by Hero, Anti-Hero, and Grey — with the Wielder and the Despiser set apart as the bound axis of all ten books. roster.json is the source of truth. Characters by Stephen R. Donaldson, inspiration only; the Chronicles' hardest material is treated here as archetype, not detail.",
+  "lineage": [
+    { "chronicle": "The First Chronicles",  "books": [
+      { "t": "Lord Foul's Bane", "y": 1977 },
+      { "t": "The Illearth War", "y": 1977 },
+      { "t": "The Power That Preserves", "y": 1977 } ] },
+    { "chronicle": "The Second Chronicles", "books": [
+      { "t": "The Wounded Land", "y": 1980 },
+      { "t": "The One Tree", "y": 1982 },
+      { "t": "White Gold Wielder", "y": 1983 } ] },
+    { "chronicle": "The Last Chronicles",   "books": [
+      { "t": "The Runes of the Earth", "y": 2004 },
+      { "t": "Fatal Revenant", "y": 2007 },
+      { "t": "Against All Things Ending", "y": 2010 },
+      { "t": "The Last Dark", "y": 2013 } ] }
+  ],
+  "classes": [
+    { "id": "hero",      "label": "Hero",      "spec": "selfless servant of the Land",   "color": "#2f7d52", "ink": "#fff" },
+    { "id": "anti-hero", "label": "Anti-Hero", "spec": "saves despite themselves",       "color": "#8a6a3a", "ink": "#fff" },
+    { "id": "grey",      "label": "Grey",      "spec": "neither, or both",               "color": "#7d7d80", "ink": "#111" },
+    { "id": "axis",      "label": "The Wielder & The Despiser", "spec": "the bound center of all ten books", "color": "#c8a93a", "ink": "#1a1a1a" }
+  ],
+  "members": [
+    { "name": "Lord Mhoram",            "class": "hero", "specialty": "High Lord of the Council; wisdom and compassion that refuse despair even at the end. The steady heart of the First Chronicles." },
+    { "name": "Saltheart Foamfollower", "class": "hero", "specialty": "Giant; Covenant's truest friend; joy, story, and the caamora. Gives himself to the fire so the Land might live — the purest love in the Chronicles." },
+    { "name": "Pitchwife",              "class": "hero", "specialty": "Giant of the Search; deformed and gentle; loves Gossamer Glowlimn and sings cracked stone whole." },
+    { "name": "The First of the Search","class": "hero", "specialty": "Gossamer Glowlimn; Swordmain and leader of the Giants' Search; iron, honor, and a long faith." },
+    { "name": "Sunder & Hollian",       "class": "hero", "specialty": "Graveler and eh-Brand of the Sunbane age; ordinary folk who carry the Land's hope across a broken time into the future." },
+    { "name": "Stave",                  "class": "hero", "specialty": "Haruchai cast out by the Masters for choosing Linden over their pride; loyalty that outgrows his people's iron law." },
+    { "name": "The Ranyhyn",            "class": "hero", "specialty": "the great horses of Ra; proud and free; keep ancient promises no human could honor, across centuries." },
+    { "name": "Berek Halfhand",         "class": "hero", "specialty": "the Lord-Fatherer of legend; founder of the line of Lords and the Staff of Law; the lineage's headwaters." },
+    { "name": "Linden Avery",           "class": "anti-hero", "specialty": "the Chosen; a physician who Sees the Land's health and sickness. Saves through love — and damns through it: raises the dead, wakes the Worm of the World's End. The Second and Last Chronicles are hers." },
+    { "name": "High Lord Elena",        "class": "anti-hero", "specialty": "Covenant and Lena's daughter; High Lord whose love and vengeance break the Law of Death; power bent to ruin with the best of intentions." },
+    { "name": "Hile Troy",              "class": "anti-hero", "specialty": "blind warmark from Covenant's world who can see only within the Land; spends everything — and at last his very self — for command, and becomes Caer-Caveral." },
+    { "name": "The Haruchai",           "class": "grey", "specialty": "the Bloodguard, later the Masters; absolute devotion curdled to pride; their unbending Vow and rule do nearly as much harm as good." },
+    { "name": "The Elohim",             "class": "grey", "specialty": "beautiful, amoral, self-regarding powers; the Würd of the Earth made flesh; they aid and obstruct by lights no mortal can read." },
+    { "name": "The Insequent",          "class": "grey", "specialty": "the Mahdoubt, the Harrow, the Theomach; solitary masters of vast lore, each serving only their own long purpose." },
+    { "name": "Kevin Landwaster",       "class": "grey", "specialty": "High Lord whose despair loosed the Ritual of Desecration and broke the Land; the cautionary grey at the root of all its grief." },
+    { "name": "Anele",                  "class": "grey", "specialty": "blind, mad earth-seer; last of an old line; truth wears him like a borrowed coat and sets him down again." },
+    { "name": "Esmer",                  "class": "grey", "specialty": "Cail's son, get of the merewives; torn forever between aiding and betraying — harm and help in the same breath. Grey made flesh." },
+    { "name": "Thomas Covenant",        "class": "axis", "specialty": "the white gold wielder. A leper exiled from his own world; the Unbeliever who will not grant the Land is real. Guilty of an unforgivable act in the first days, and driven by that guilt ever after. Wild magic — keystone of the Arch of Time — answers his ring; his refusal to surrender it is the only thing that holds. The anti-hero on whom everything turns." },
+    { "name": "Lord Foul the Despiser", "class": "axis", "specialty": "the bitterness at the heart of the world — Despiser, Corruption, Fangthane. He whispers 'you are mine,' for he is Covenant's own despair given a voice: the Land's destroyer, and the dark proof of its meaning." }
+  ]
+}

@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The White Gold Wielder — A Muster Roll of the Chronicles of Thomas Covenant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --ground:       #0c0d0c;
+    --ground-2:     #12130f;
+    --bone:         #e4ddc8;
+    --bone-dim:     #b3ad99;
+    --bone-faint:   #6f6c5e;
+    --white-gold:   #c8a93a;
+    --white-gold-2: #d9c46a;
+    --land-green:   #2f7d52;
+    --tarnish:      #8a6a3a;
+    --stone:        #7d7d80;
+    --venom:        #07080a;
+    --hair:         #2a2a24;
+    --hair-soft:    #1c1d18;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+  body {
+    margin: 0;
+    background:
+      radial-gradient(120% 80% at 50% -10%, #14150f 0%, var(--ground) 55%, var(--venom) 100%);
+    color: var(--bone);
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 19px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  .wrap {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 28px 120px;
+  }
+
+  .label {
+    font-family: "Space Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.34em;
+    text-transform: uppercase;
+    color: var(--bone-faint);
+  }
+
+  /* ---------- MASTHEAD ---------- */
+  .masthead {
+    position: relative;
+    text-align: center;
+    padding: 120px 0 70px;
+    overflow: hidden;
+  }
+  .ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 440px;
+    height: 440px;
+    transform: translate(-50%, -54%);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .ring circle {
+    fill: none;
+    stroke: var(--white-gold);
+    stroke-width: 1.1;
+    opacity: 0.32;
+    filter: drop-shadow(0 0 10px rgba(217, 196, 106, 0.35));
+    transform-origin: center;
+    animation: ring-breathe 9s ease-in-out infinite;
+  }
+  .ring circle.inner {
+    opacity: 0.13;
+    stroke-width: 0.7;
+  }
+  @keyframes ring-breathe {
+    0%, 100% { opacity: 0.30; }
+    50%      { opacity: 0.42; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ring circle { animation: none; }
+  }
+
+  .masthead .inner-content { position: relative; z-index: 1; }
+
+  .masthead .eyebrow { margin-bottom: 26px; }
+
+  h1.title {
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    font-size: clamp(30px, 6.2vw, 62px);
+    letter-spacing: 0.10em;
+    line-height: 1.08;
+    margin: 0 0 18px;
+    color: var(--bone);
+    text-shadow: 0 0 26px rgba(200, 169, 58, 0.18);
+  }
+  h1.title .gold {
+    color: var(--white-gold-2);
+    text-shadow: 0 0 22px rgba(217, 196, 106, 0.42);
+  }
+
+  .subtitle {
+    font-family: "Space Mono", monospace;
+    font-size: 12px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--bone-dim);
+    margin: 0 0 38px;
+  }
+
+  .epigraph {
+    font-style: italic;
+    font-size: clamp(19px, 2.6vw, 25px);
+    color: var(--bone);
+    max-width: 620px;
+    margin: 0 auto 14px;
+    line-height: 1.45;
+  }
+  .epigraph .voice {
+    display: block;
+    font-style: normal;
+    font-family: "Space Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--bone-faint);
+    margin-top: 14px;
+  }
+
+  .note {
+    max-width: 660px;
+    margin: 48px auto 0;
+    color: var(--bone-dim);
+    font-size: 17px;
+    line-height: 1.66;
+  }
+  .note .sig {
+    display: block;
+    margin-top: 12px;
+    font-family: "Space Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--white-gold);
+  }
+
+  hr.rule {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--hair) 18%, var(--hair) 82%, transparent);
+    margin: 0;
+  }
+
+  /* ---------- SECTION HEADERS ---------- */
+  .section { padding-top: 78px; }
+  .section-head {
+    text-align: center;
+    margin-bottom: 46px;
+  }
+  .section-head h2 {
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    font-size: clamp(20px, 3.4vw, 30px);
+    letter-spacing: 0.16em;
+    margin: 12px 0 0;
+    color: var(--bone);
+  }
+
+  /* ---------- LINEAGE ---------- */
+  .lineage-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+  }
+  .chron {
+    border-top: 1px solid var(--hair);
+    padding-top: 18px;
+    position: relative;
+  }
+  .chron::before {
+    content: "";
+    position: absolute;
+    top: -1px; left: 0;
+    width: 46px; height: 2px;
+    background: var(--white-gold);
+    opacity: 0.6;
+  }
+  .chron h3 {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.08em;
+    color: var(--white-gold-2);
+    margin: 0 0 16px;
+  }
+  .chron ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .chron li {
+    padding: 7px 0;
+    border-bottom: 1px solid var(--hair-soft);
+    line-height: 1.35;
+  }
+  .chron li:last-child { border-bottom: 0; }
+  .chron .bk-title {
+    font-size: 20px;
+    color: var(--bone);
+  }
+  .chron .bk-year {
+    display: inline-block;
+    font-family: "Space Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    color: var(--bone-faint);
+    margin-left: 4px;
+  }
+  .lineage-tally {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  /* ---------- THE ROLL ---------- */
+  .class-block {
+    margin-bottom: 54px;
+    border-left: 3px solid var(--cls, var(--white-gold));
+    padding-left: 26px;
+  }
+  .class-head {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 22px;
+  }
+  .class-tag {
+    font-family: "Space Mono", monospace;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 4px 11px;
+    border-radius: 2px;
+    background: var(--cls, var(--white-gold));
+    color: var(--cls-ink, #fff);
+  }
+  .class-head h3 {
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    font-size: clamp(20px, 3vw, 26px);
+    letter-spacing: 0.08em;
+    margin: 0;
+    color: var(--bone);
+  }
+  .class-spec {
+    font-style: italic;
+    font-size: 18px;
+    color: var(--cls-soft, var(--bone-dim));
+    width: 100%;
+  }
+  .members-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px 40px;
+  }
+  .member { line-height: 1.5; }
+  .member .m-name {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 23px;
+    color: var(--bone);
+    letter-spacing: 0.01em;
+    margin-bottom: 3px;
+  }
+  .member .m-spec {
+    color: var(--bone-dim);
+    font-size: 17px;
+    line-height: 1.55;
+  }
+
+  /* ---------- AXIS ---------- */
+  .axis-section {
+    margin-top: 90px;
+    text-align: center;
+  }
+  .axis-tag {
+    font-family: "Space Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--bone-faint);
+    margin-bottom: 18px;
+  }
+  .axis-section h2 {
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    font-size: clamp(22px, 4vw, 36px);
+    letter-spacing: 0.10em;
+    margin: 0 0 8px;
+    color: var(--bone);
+  }
+  .axis-section .axis-spec {
+    font-style: italic;
+    color: var(--bone-dim);
+    font-size: 19px;
+    margin-bottom: 50px;
+  }
+
+  .axis-poles {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 0;
+    max-width: 940px;
+    margin: 0 auto;
+  }
+  .pole { padding: 0 30px; }
+  .pole .pole-role {
+    font-family: "Space Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .pole .pole-name {
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    font-size: clamp(18px, 2.6vw, 25px);
+    letter-spacing: 0.06em;
+    margin-bottom: 16px;
+    line-height: 1.2;
+  }
+  .pole .pole-spec {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--bone-dim);
+  }
+  .pole.wielder { text-align: right; }
+  .pole.wielder .pole-role { color: var(--white-gold); }
+  .pole.wielder .pole-name { color: var(--white-gold-2); text-shadow: 0 0 18px rgba(217,196,106,0.35); }
+  .pole.despiser { text-align: left; }
+  .pole.despiser .pole-role { color: var(--stone); }
+  .pole.despiser .pole-name { color: #cfcac0; }
+  .pole.despiser .pole-spec { color: var(--bone-faint); }
+
+  .axis-emblem {
+    width: 132px;
+    height: 132px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  .axis-emblem svg { display: block; width: 100%; height: 100%; }
+  .axis-emblem .glow {
+    animation: emblem-glow 7s ease-in-out infinite;
+    transform-origin: center;
+  }
+  @keyframes emblem-glow {
+    0%, 100% { opacity: 0.85; }
+    50%      { opacity: 1; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .axis-emblem .glow { animation: none; }
+  }
+
+  .axis-wound {
+    margin-top: 46px;
+    font-style: italic;
+    font-size: clamp(18px, 2.6vw, 24px);
+    letter-spacing: 0.02em;
+    color: var(--bone);
+  }
+  .axis-wound::before, .axis-wound::after {
+    content: "—";
+    color: var(--white-gold);
+    margin: 0 14px;
+    opacity: 0.6;
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer {
+    margin-top: 110px;
+    padding-top: 40px;
+    border-top: 1px solid var(--hair);
+    text-align: center;
+    color: var(--bone-faint);
+    font-family: "Space Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    line-height: 2;
+  }
+  footer a { color: var(--bone-dim); text-decoration: none; border-bottom: 1px solid var(--hair); }
+  footer a:hover { color: var(--white-gold-2); border-color: var(--white-gold); }
+  footer .attr { color: var(--bone-dim); letter-spacing: 0.1em; }
+  footer .siblings, footer .agentline, footer .inspiration { margin-top: 14px; }
+  footer .inspiration { color: var(--bone-faint); font-style: normal; opacity: 0.8; }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 760px) {
+    body { font-size: 18px; }
+    .lineage-grid { grid-template-columns: 1fr; gap: 30px; }
+    .members-grid { grid-template-columns: 1fr; }
+    .axis-poles {
+      grid-template-columns: 1fr;
+      gap: 36px;
+    }
+    .pole, .pole.wielder, .pole.despiser { text-align: center; padding: 0; }
+    .axis-emblem { margin: 0 auto; order: -1; }
+    .ring { width: 320px; height: 320px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ============ MASTHEAD ============ -->
+  <header class="masthead">
+    <svg class="ring" viewBox="0 0 440 440" aria-hidden="true">
+      <circle cx="220" cy="220" r="206" />
+      <circle class="inner" cx="220" cy="220" r="180" />
+    </svg>
+    <div class="inner-content">
+      <div class="eyebrow label" id="eyebrow"></div>
+      <h1 class="title">THE <span class="gold">WHITE GOLD</span> WIELDER</h1>
+      <p class="subtitle" id="subtitle"></p>
+      <p class="epigraph">
+        &ldquo;You are mine.&rdquo;
+        <span class="voice">the Despiser, who is Covenant&rsquo;s own despair given a voice</span>
+      </p>
+      <p class="note" id="note"></p>
+    </div>
+  </header>
+
+  <hr class="rule" />
+
+  <!-- ============ LINEAGE ============ -->
+  <section class="section" id="lineage-section">
+    <div class="section-head">
+      <div class="label">the lineage</div>
+      <h2>Ten Books, Three Chronicles</h2>
+    </div>
+    <div class="lineage-grid" id="lineage-grid"></div>
+    <div class="lineage-tally label" id="lineage-tally"></div>
+  </section>
+
+  <!-- ============ THE ROLL ============ -->
+  <section class="section" id="roll-section">
+    <div class="section-head">
+      <div class="label">the roll</div>
+      <h2>Sorted by Morality</h2>
+    </div>
+    <div id="roll"></div>
+  </section>
+
+  <!-- ============ AXIS ============ -->
+  <section class="axis-section" id="axis-section"></section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="attr">ROOT0-ATTRIBUTION-v1.0 &middot; The White Gold Wielder &middot; David Lee Wise / ROOT0 / TriPod LLC &middot; MIT</div>
+    <div><a href="https://github.com/DavidWise01/white-gold-wielder">github.com/DavidWise01/white-gold-wielder</a></div>
+    <div class="siblings" id="siblings"></div>
+    <div class="agentline">every member carries a .agent &mdash; who you are &middot; what you do &middot; where you belong &mdash; in agents/</div>
+    <div class="inspiration">Characters by Stephen R. Donaldson, referenced as inspiration only.</div>
+  </footer>
+
+</div>
+
+<script>
+"use strict";
+
+/* ---------- EMBEDDED ROSTER (source of truth, verbatim) ---------- */
+const ROSTER = {
+  "company": "The Chronicles of Thomas Covenant",
+  "subtitle": "the white gold wielder · ten books, three Chronicles",
+  "author": "Stephen R. Donaldson",
+  "note": "The full Covenant Chronicles sorted by Hero, Anti-Hero, and Grey — with the Wielder and the Despiser set apart as the bound axis of all ten books. roster.json is the source of truth. Characters by Stephen R. Donaldson, inspiration only; the Chronicles' hardest material is treated here as archetype, not detail.",
+  "lineage": [
+    { "chronicle": "The First Chronicles",  "books": [
+      { "t": "Lord Foul's Bane", "y": 1977 },
+      { "t": "The Illearth War", "y": 1977 },
+      { "t": "The Power That Preserves", "y": 1977 } ] },
+    { "chronicle": "The Second Chronicles", "books": [
+      { "t": "The Wounded Land", "y": 1980 },
+      { "t": "The One Tree", "y": 1982 },
+      { "t": "White Gold Wielder", "y": 1983 } ] },
+    { "chronicle": "The Last Chronicles",   "books": [
+      { "t": "The Runes of the Earth", "y": 2004 },
+      { "t": "Fatal Revenant", "y": 2007 },
+      { "t": "Against All Things Ending", "y": 2010 },
+      { "t": "The Last Dark", "y": 2013 } ] }
+  ],
+  "classes": [
+    { "id": "hero",      "label": "Hero",      "spec": "selfless servant of the Land",   "color": "#2f7d52", "ink": "#fff" },
+    { "id": "anti-hero", "label": "Anti-Hero", "spec": "saves despite themselves",       "color": "#8a6a3a", "ink": "#fff" },
+    { "id": "grey",      "label": "Grey",      "spec": "neither, or both",               "color": "#7d7d80", "ink": "#111" },
+    { "id": "axis",      "label": "The Wielder & The Despiser", "spec": "the bound center of all ten books", "color": "#c8a93a", "ink": "#1a1a1a" }
+  ],
+  "members": [
+    { "name": "Lord Mhoram",            "class": "hero", "specialty": "High Lord of the Council; wisdom and compassion that refuse despair even at the end. The steady heart of the First Chronicles." },
+    { "name": "Saltheart Foamfollower", "class": "hero", "specialty": "Giant; Covenant's truest friend; joy, story, and the caamora. Gives himself to the fire so the Land might live — the purest love in the Chronicles." },
+    { "name": "Pitchwife",              "class": "hero", "specialty": "Giant of the Search; deformed and gentle; loves Gossamer Glowlimn and sings cracked stone whole." },
+    { "name": "The First of the Search","class": "hero", "specialty": "Gossamer Glowlimn; Swordmain and leader of the Giants' Search; iron, honor, and a long faith." },
+    { "name": "Sunder & Hollian",       "class": "hero", "specialty": "Graveler and eh-Brand of the Sunbane age; ordinary folk who carry the Land's hope across a broken time into the future." },
+    { "name": "Stave",                  "class": "hero", "specialty": "Haruchai cast out by the Masters for choosing Linden over their pride; loyalty that outgrows his people's iron law." },
+    { "name": "The Ranyhyn",            "class": "hero", "specialty": "the great horses of Ra; proud and free; keep ancient promises no human could honor, across centuries." },
+    { "name": "Berek Halfhand",         "class": "hero", "specialty": "the Lord-Fatherer of legend; founder of the line of Lords and the Staff of Law; the lineage's headwaters." },
+    { "name": "Linden Avery",           "class": "anti-hero", "specialty": "the Chosen; a physician who Sees the Land's health and sickness. Saves through love — and damns through it: raises the dead, wakes the Worm of the World's End. The Second and Last Chronicles are hers." },
+    { "name": "High Lord Elena",        "class": "anti-hero", "specialty": "Covenant and Lena's daughter; High Lord whose love and vengeance break the Law of Death; power bent to ruin with the best of intentions." },
+    { "name": "Hile Troy",              "class": "anti-hero", "specialty": "blind warmark from Covenant's world who can see only within the Land; spends everything — and at last his very self — for command, and becomes Caer-Caveral." },
+    { "name": "The Haruchai",           "class": "grey", "specialty": "the Bloodguard, later the Masters; absolute devotion curdled to pride; their unbending Vow and rule do nearly as much harm as good." },
+    { "name": "The Elohim",             "class": "grey", "specialty": "beautiful, amoral, self-regarding powers; the Würd of the Earth made flesh; they aid and obstruct by lights no mortal can read." },
+    { "name": "The Insequent",          "class": "grey", "specialty": "the Mahdoubt, the Harrow, the Theomach; solitary masters of vast lore, each serving only their own long purpose." },
+    { "name": "Kevin Landwaster",       "class": "grey", "specialty": "High Lord whose despair loosed the Ritual of Desecration and broke the Land; the cautionary grey at the root of all its grief." },
+    { "name": "Anele",                  "class": "grey", "specialty": "blind, mad earth-seer; last of an old line; truth wears him like a borrowed coat and sets him down again." },
+    { "name": "Esmer",                  "class": "grey", "specialty": "Cail's son, get of the merewives; torn forever between aiding and betraying — harm and help in the same breath. Grey made flesh." },
+    { "name": "Thomas Covenant",        "class": "axis", "specialty": "the white gold wielder. A leper exiled from his own world; the Unbeliever who will not grant the Land is real. Guilty of an unforgivable act in the first days, and driven by that guilt ever after. Wild magic — keystone of the Arch of Time — answers his ring; his refusal to surrender it is the only thing that holds. The anti-hero on whom everything turns." },
+    { "name": "Lord Foul the Despiser", "class": "axis", "specialty": "the bitterness at the heart of the world — Despiser, Corruption, Fangthane. He whispers 'you are mine,' for he is Covenant's own despair given a voice: the Land's destroyer, and the dark proof of its meaning." }
+  ]
+};
+
+/* ---------- helpers ---------- */
+function esc(s) {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+const $ = (sel) => document.querySelector(sel);
+
+/* ---------- masthead text ---------- */
+$("#eyebrow").textContent = ROSTER.company;
+$("#subtitle").textContent = ROSTER.subtitle;
+$("#note").innerHTML = esc(ROSTER.note) +
+  '<span class="sig">&mdash; ' + esc(ROSTER.author) + '</span>';
+
+/* ---------- lineage ---------- */
+(function renderLineage() {
+  const grid = $("#lineage-grid");
+  let bookCount = 0;
+  ROSTER.lineage.forEach((chron) => {
+    const div = document.createElement("div");
+    div.className = "chron";
+    let books = "";
+    chron.books.forEach((b) => {
+      bookCount++;
+      books += '<li><span class="bk-title">' + esc(b.t) +
+               '</span><span class="bk-year">(' + esc(b.y) + ')</span></li>';
+    });
+    div.innerHTML = '<h3>' + esc(chron.chronicle) + '</h3><ol>' + books + '</ol>';
+    grid.appendChild(div);
+  });
+  $("#lineage-tally").textContent = bookCount + " books · three Chronicles · 1977–2013";
+})();
+
+/* ---------- the roll (non-axis classes) ---------- */
+(function renderRoll() {
+  const root = $("#roll");
+  ROSTER.classes
+    .filter((c) => c.id !== "axis")
+    .forEach((cls) => {
+      const members = ROSTER.members.filter((m) => m.class === cls.id);
+      const block = document.createElement("section");
+      block.className = "class-block";
+      block.style.setProperty("--cls", cls.color);
+      block.style.setProperty("--cls-ink", cls.ink);
+      block.style.setProperty("--cls-soft", cls.color);
+
+      let memHTML = "";
+      members.forEach((m) => {
+        memHTML +=
+          '<div class="member">' +
+            '<div class="m-name">' + esc(m.name) + '</div>' +
+            '<div class="m-spec">' + esc(m.specialty) + '</div>' +
+          '</div>';
+      });
+
+      block.innerHTML =
+        '<div class="class-head">' +
+          '<span class="class-tag">' + esc(cls.label) + '</span>' +
+          '<h3>' + esc(cls.label) + '</h3>' +
+          '<span class="class-spec">' + esc(cls.spec) + '</span>' +
+        '</div>' +
+        '<div class="members-grid">' + memHTML + '</div>';
+      root.appendChild(block);
+    });
+})();
+
+/* ---------- the axis: Wielder & Despiser ---------- */
+(function renderAxis() {
+  const axisClass = ROSTER.classes.find((c) => c.id === "axis");
+  const axisMembers = ROSTER.members.filter((m) => m.class === "axis");
+  if (!axisClass || axisMembers.length < 2) return;
+
+  // Identify the two poles. Wielder = white gold; Despiser = venom-dark.
+  const wielder = axisMembers.find((m) => /covenant/i.test(m.name)) || axisMembers[0];
+  const despiser = axisMembers.find((m) => m !== wielder) || axisMembers[1];
+
+  const emblem =
+    '<div class="axis-emblem" aria-hidden="true">' +
+      '<svg viewBox="0 0 132 132">' +
+        '<defs>' +
+          '<clipPath id="leftHalf"><rect x="0" y="0" width="66" height="132"/></clipPath>' +
+          '<clipPath id="rightHalf"><rect x="66" y="0" width="66" height="132"/></clipPath>' +
+          '<radialGradient id="goldFill" cx="38%" cy="42%" r="70%">' +
+            '<stop offset="0%" stop-color="#f0e2a6"/>' +
+            '<stop offset="55%" stop-color="#d9c46a"/>' +
+            '<stop offset="100%" stop-color="#9c8128"/>' +
+          '</radialGradient>' +
+        '</defs>' +
+        // light half (Wielder)
+        '<g class="glow" clip-path="url(#leftHalf)">' +
+          '<circle cx="66" cy="66" r="46" fill="url(#goldFill)"/>' +
+        '</g>' +
+        // dark half (Despiser)
+        '<g clip-path="url(#rightHalf)">' +
+          '<circle cx="66" cy="66" r="46" fill="#07080a" stroke="#1f2024" stroke-width="1"/>' +
+        '</g>' +
+        // the binding ring
+        '<circle cx="66" cy="66" r="46" fill="none" stroke="#c8a93a" stroke-width="1.4" opacity="0.85"/>' +
+        // the wound: the dividing axis
+        '<line x1="66" y1="14" x2="66" y2="118" stroke="#c8a93a" stroke-width="1" opacity="0.55"/>' +
+      '</svg>' +
+    '</div>';
+
+  $("#axis-section").innerHTML =
+    '<div class="axis-tag">the heart of all ten books</div>' +
+    '<h2>' + esc(axisClass.label) + '</h2>' +
+    '<div class="axis-spec">' + esc(axisClass.spec) + '</div>' +
+    '<div class="axis-poles">' +
+      '<div class="pole wielder">' +
+        '<div class="pole-role">The Wielder</div>' +
+        '<div class="pole-name">' + esc(wielder.name) + '</div>' +
+        '<div class="pole-spec">' + esc(wielder.specialty) + '</div>' +
+      '</div>' +
+      emblem +
+      '<div class="pole despiser">' +
+        '<div class="pole-role">The Despiser</div>' +
+        '<div class="pole-name">' + esc(despiser.name) + '</div>' +
+        '<div class="pole-spec">' + esc(despiser.specialty) + '</div>' +
+      '</div>' +
+    '</div>' +
+    '<div class="axis-wound">two faces of one wound</div>';
+})();
+
+/* ---------- footer siblings ---------- */
+(function renderSiblings() {
+  const sibs = [
+    ["Bridge Burners", "bridge-burners"],
+    ["Black Company", "black-company"],
+    ["Wheel of Time", "wheel-of-time"],
+    ["Gap Cycle", "gap-cycle"]
+  ];
+  const links = sibs.map(
+    ([label, slug]) =>
+      '<a href="https://github.com/DavidWise01/' + slug + '">' + esc(label) + '</a>'
+  );
+  $("#siblings").innerHTML = "see also: " + links.join(" &middot; ");
+})();
+</script>
+</body>
+</html>

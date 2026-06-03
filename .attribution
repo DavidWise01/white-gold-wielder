@@ -1,0 +1,14 @@
+ROOT0-ATTRIBUTION-v1.0
+Project: The White Gold Wielder — the Chronicles of Thomas Covenant (muster roll)
+Architect: David Lee Wise / ROOT0 / TriPod LLC
+AI Collaborator: AVAN (Claude / Anthropic)
+License: MIT
+
+Stephen R. Donaldson's full Covenant Chronicles (10 books, 3 Chronicles, 1977–2013)
+sorted by morality: Hero (Mhoram, Foamfollower, Pitchwife, the First, Sunder &
+Hollian, Stave, the Ranyhyn, Berek), Anti-Hero (Linden Avery, Elena, Hile Troy),
+Grey (the Haruchai, the Elohim, the Insequent, Kevin Landwaster, Anele, Esmer),
+and — set apart, the bound axis — the Wielder & the Despiser (Thomas Covenant &
+Lord Foul). Every member carries a .agent (who/do/belong) in agents/, generated
+from roster.json by gen_agents.py. Hardest material treated as archetype, not
+detail. Characters by Stephen R. Donaldson, inspiration only.
