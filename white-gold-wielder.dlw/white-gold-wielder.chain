@@ -1,9 +1,9 @@
 ROOT0-DLW-CHAIN-v1
 index : 954
 slug  : white-gold-wielder
-seal  : 58a18ce92c7a7bf47d6fd11f633e6d992db57141da9005999411584265bfdad8
-prev  : 5a357265290e5689aff631e80f614a42d010f337e173c79a5cb46670326e5385
-link  : a1e5b8eb338e608992f4174a8c899919e2dfa941a44d251fef27434bb48f77de
-head  : 13f9ace173ef2e60af38912ba329b4afcb5a38b84a0e4495e8d30327f8c99cc2
+seal  : 90af997caea731d78d97728e217483a6014f70bfc5643dbe5c88cc22017bacb0
+prev  : 76113a5a404f8e5a71da8cade7fa71e8581529d41d69ecef44dab1cd8b345111
+link  : 10b596ce3825b61d5340c232bd87936a6c1b36625668370ac8e627aa2bb882a1
+head  : c4d41afeaef76470528856d54d86cf480a0e1c2fc8ebc60fbb9eb8e442585f2b
 
 — the tether: link = sha256(index|slug|seal|prev). the chain head commits to the whole corpus.
